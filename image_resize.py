@@ -12,8 +12,6 @@ def get_png_images():
 def clean_up_file_structure():
     if os.path.isdir(OUTPUT_PATH):
         shutil.rmtree(OUTPUT_PATH)
-
-def set_up_file_structure():
     os.mkdir(OUTPUT_PATH)
     os.mkdir(os.path.join(OUTPUT_PATH, "drawable-mdpi"))
     os.mkdir(os.path.join(OUTPUT_PATH, "drawable-hdpi"))
@@ -27,7 +25,6 @@ def resize_image_from_multiplier(image, multiplier):
 def main():
 
     clean_up_file_structure()
-    set_up_file_structure()
 
     for image in get_png_images():
 
