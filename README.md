@@ -4,10 +4,6 @@ Given image files of size 3x (`xxhdpi`), this script will generate `xhdpi`, `mdp
 
 ## How to run
 
-- Create two folders in the repository home directory:
-	- `input`
-	- `output`
-
+- Create a folder called `input` in the repository home directory:
 - In the `input` folder, place png files with size 3x
-
 - Run `python image_resize.py`
