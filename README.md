@@ -4,7 +4,7 @@ Given image files of size 3x (`xxhdpi`), this script will generate `xhdpi`, `mdp
 
 ## How to run
 
-- Create two folders in the root directory:
+- Create two folders in the repository home directory:
 	- `input`
 	- `output`
 
